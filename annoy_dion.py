@@ -29,7 +29,7 @@ def up():
     print('going up')
 
 def down():
-    u = url + 'down' 
+    u = url + 'down'
 
     r = requests.post(u, json=body)
 
